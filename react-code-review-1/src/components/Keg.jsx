@@ -21,11 +21,11 @@ export default function Keg(props){
   const buttonStyle ={
 
     height: '3vh',
-    width: '3vw',
+
     paddingTop: '1%',
     paddingBottom: '1%',
     marginTop: '4%',
-    fontSize: '18px'
+    fontSize: '40%'
   }
 
 

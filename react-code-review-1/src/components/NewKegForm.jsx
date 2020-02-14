@@ -18,12 +18,12 @@ export default function NewKegForm(){
   }
 
   const formWrap = {
-    backgroundColor: '#E6F9D0',
-    border: 'thick solid #D8F2BB',
+    backgroundColor: '#fcface',
+    border: 'thick solid #fcface',
     borderRadius: '20px',
     padding: '0 40px',
     boxShadow: '-2px 10px 20px #40403F',
-    color: 'navy',
+    color: 'black',
     marginLeft: '30%',
     marginRight: '30%',
     marginTop: '6%'
@@ -49,6 +49,10 @@ export default function NewKegForm(){
     marginBottom: '60px'
 
   }
+  const input = {
+    width: '60%',
+    marginTop: '2.5%'
+  }
 
   return(
 
@@ -61,35 +65,35 @@ export default function NewKegForm(){
               <label>
                 Name of Beer
                 <br></br>
-                <input type="text" name="name" />
+                <input style={input} type="text" name="name" />
               </label>
             </li>
             <li style={inputPadding}>
               <label>
                 Brand
                 <br></br>
-                <input type="text" name="name" />
+                <input style={input} type="text" name="name" />
               </label>
             </li>
             <li style={inputPadding}>
               <label>
                 Price per Pint
                 <br></br>
-                <input type="text" name="name" />
+                <input style={input} type="text" name="name" />
               </label>
             </li>
             <li style={inputPadding}>
               <label>
                 Alcohol Content
                 <br></br>
-                <input type="text" name="name" />
+                <input style={input} type="text" name="name" />
               </label>
             </li>
             <li style={inputPadding}>
               <label>
                 Keg Volume
                 <br></br>
-                <input type="number" name="name" />
+                <input style={input} type="number" name="name" />
               </label>
             </li>
             <div  style={submitButtonStyle}><li><input style={buttonSize}type="submit" value="Submit" /></li> </div>
