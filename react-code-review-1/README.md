@@ -15,7 +15,7 @@ PintSoldButton
 
 ## Initial Application Flow Map
 
-![alt text](https://github.com/marcusjensen15/react-week-1-code-review/blob/master/react-code-review-1/public/taproom.png)
+[Here is a link to an image of the initial applicaiton flow](https://drive.google.com/file/d/1e5KgQR_cspekwBa2UBf2Pm_0qsrJFZWz/view?usp=sharing)
 
 
 
