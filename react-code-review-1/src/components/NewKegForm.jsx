@@ -11,7 +11,7 @@ export default function NewKegForm(){
 
   const textCenter = {
     textAlign: 'center',
-    fontSize: '1.5vh'
+    fontSize: '2vh'
   }
   const newBeerHeader = {
     marginBottom: '4vh'
@@ -29,44 +29,70 @@ export default function NewKegForm(){
     marginTop: '6%'
   }
 
+  const listStyle = {
+    listStyle: 'none'
+  }
+
+  const submitButtonStyle = {
+
+    marginTop: '4%',
+    border: 'none',
+    textAlign: 'center',
+    fontSize: '20px'
+
+  }
+
+  const buttonSize = {
+    fontSize: '50px'
+  }
+  const inputPadding = {
+    marginBottom: '60px'
+
+  }
+
   return(
 
     <div style={textCenter}>
       <div style={formWrap}>
         <h1 style={newBeerHeader}>Add a new beer </h1>
         <form>
-          <ul>
-            <li>
+          <ul style={listStyle}>
+            <li style={inputPadding}>
               <label>
-                Name of Beer:
+                Name of Beer
+                <br></br>
                 <input type="text" name="name" />
               </label>
             </li>
-            <li>
+            <li style={inputPadding}>
               <label>
-                Brand:
+                Brand
+                <br></br>
                 <input type="text" name="name" />
               </label>
             </li>
-            <li>
+            <li style={inputPadding}>
               <label>
-                Price per Pint:
+                Price per Pint
+                <br></br>
                 <input type="text" name="name" />
               </label>
             </li>
-            <li>
+            <li style={inputPadding}>
               <label>
-                Alcohol Content:
+                Alcohol Content
+                <br></br>
                 <input type="text" name="name" />
               </label>
             </li>
-            <li>
+            <li style={inputPadding}>
               <label>
-                Keg Volume:
+                Keg Volume
+                <br></br>
                 <input type="number" name="name" />
               </label>
             </li>
-            <li><input type="submit" value="Submit" /></li>
+            <div  style={submitButtonStyle}><li><input style={buttonSize}type="submit" value="Submit" /></li> </div>
 
           </ul>
         </form>
