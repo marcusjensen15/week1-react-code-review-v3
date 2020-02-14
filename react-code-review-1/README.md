@@ -1,3 +1,32 @@
+## Description
+
+The purpose of this application is to allow the owner/operator of a bar to understand which beers they have on tap, and which beer kegs are close to needing replacement. The user will be able to: Add a new beer to the tap list, edit a beer, deduct a pint from the pints remaining, and delete a beer from the database.
+
+as of 2/14/2020, this application is hard coded and non responseve, but by the end of the month the user will have access to all of this functionality.
+
+## Key Custom Component List
+AboutApp
+AllKegs
+EditKegForm
+KegHeader
+LessThan10Pints
+NewKegForm
+PintSoldButton
+
+##Initial Application Flow Map
+
+![alt text](http://url/to/img.png)
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
