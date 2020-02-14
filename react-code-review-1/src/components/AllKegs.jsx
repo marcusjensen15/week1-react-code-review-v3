@@ -13,11 +13,18 @@ export default function AllKegs(){
     textAlign: 'center'
   }
 
+  const kegHeader = {
+    fontSize: '80px',
+    paddingBottom: '20px',
+    color: 'white'
+  }
+
 
   return(
-    <div>
-      <h1 style={textCenter}>All Available Kegs</h1>
+    <div style={textCenter}>
+      <h1 style={kegHeader}>All Available Kegs</h1>
       <Keg
+        name="Original Budweiser"
         brand= "Budweiser"
         price= "$5/pint"
         alcoholContent="3.2% ABV"

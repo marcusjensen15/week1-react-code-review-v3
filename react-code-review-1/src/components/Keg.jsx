@@ -3,16 +3,29 @@ import PropTypes from 'prop-types';
 
 export default function Keg(props){
   var kegTextStyle = {
-    fontSize: '16px',
-    float: 'right',
-    paddingTop: '5%',
+    fontSize: '30px',
+    paddingTop: '2%',
     paddingLeft: '5%',
-    paddingRight: '5%'
+    paddingRight: '5%',
+    paddingBottom: '2%',
+    border: '6px solid #eee',
+    marginRight: '32%',
+    marginLeft: '32%'
+  }
+  var textCenter = {
+    color: 'white'
+  }
+
+  const buttonStyle ={
+
+    height: '3vh',
+    width: '3vw',
+    paddingTop: '1%'
   }
 
 
   return(
-    <div>
+    <div style={textCenter}>
       <div style={kegTextStyle}>
 
         <h3>{props.name}</h3>
@@ -20,6 +33,7 @@ export default function Keg(props){
         <p>{props.price}</p>
         <p>{props.alcoholContent}</p>
         <p>{props.kegVolume}</p>
+          <button style={buttonStyle}> Pint Sold </button>
 
       </div>
     </div>
