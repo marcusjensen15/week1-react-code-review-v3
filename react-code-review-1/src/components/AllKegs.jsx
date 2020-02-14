@@ -16,9 +16,30 @@ export default function AllKegs(){
         name= "Bud Light"
         brand= "Budweiser"
         price= "$5/pint"
-        alcoholContent="3.2 ABV"
+        alcoholContent="3.2% ABV"
         kegVolume = "125"
         />
+        <Keg
+          name= "Coors Light"
+          brand= "Coors"
+          price= "$5/pint"
+          alcoholContent="3.5% ABV"
+          kegVolume = "125"
+          />
+          <Keg
+            name= "Widmer Hef"
+            brand= "Widmer Bros"
+            price= "$6/pint"
+            alcoholContent="5% ABV"
+            kegVolume = "125"
+            />
+            <Keg
+              name= "Cream Ale"
+              brand= "Pelican Brewing"
+              price= "$6/pint"
+              alcoholContent="6.2% ABV"
+              kegVolume = "125"
+              />
     </div>
   );
 }
