@@ -7,7 +7,7 @@ import React from 'react';
 
 //will need to import new keg form
 
-export default function AllKegs(){
+export default function AboutApp(){
 
   const textCenter = {
     textAlign: 'center'

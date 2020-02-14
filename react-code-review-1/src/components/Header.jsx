@@ -14,7 +14,11 @@ export default function Header(){
 
   return(
       <div style={navLinks}>
-        <p> <Link to='/aboutapp'>About The App </Link></p>
+        <p> <Link to='/aboutapp'>About The App </Link> |
+        <Link to='/newkegform'>Add a New Keg </Link> |
+        <Link to='/'>All Kegs </Link>
+
+    </p>
       </div>
   );
 }

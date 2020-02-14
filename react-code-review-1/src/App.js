@@ -8,6 +8,8 @@ import { Switch, Route } from 'react-router-dom';
 import AllKegs from './components/AllKegs';
 // import Keg from './components/Keg';
 import AboutApp from './components/AboutApp';
+import NewKegForm from './components/NewKegForm';
+
 import Header from './components/Header';
 
 
@@ -18,6 +20,8 @@ function App() {
       <Switch>
          <Route exact path='/' component={AllKegs} />
            <Route exact path='/aboutapp' component={AboutApp} />
+          <Route exact path='/newkegform' component={NewKegForm} />
+
 
       </Switch>
     </div>
