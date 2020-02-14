@@ -10,13 +10,14 @@ import React from 'react';
 export default function AboutApp(){
 
   const textCenter = {
-    textAlign: 'center'
+    textAlign: 'center',
+    fontSize: '60px'
   }
 
 
   return(
-    <div>
-      <p> Here is some great information about the app</p>
+    <div style={textCenter}>
+      <p> Here is where I'll put some useful information about the app once it is complete</p>
 
     </div>
   );

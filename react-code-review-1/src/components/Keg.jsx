@@ -37,7 +37,7 @@ export default function Keg(props){
         <h4>{props.brand}</h4>
         <p>{props.price}</p>
         <p>{props.alcoholContent}</p>
-        <p>{props.kegVolume}</p>
+        <p>Pints Remaining: {props.kegVolume}</p>
           <button style={buttonStyle}> Pint Sold </button>
 
       </div>
