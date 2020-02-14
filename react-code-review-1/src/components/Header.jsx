@@ -5,20 +5,29 @@ import { Link } from 'react-router-dom';
 export default function Header(){
   const navLinks = {
     textAlign: 'center',
-    paddingTop: '3%'
+    paddingTop: '3%',
+    fontSize: '2vh'
+  }
+
+  const noUnderline ={
+    textDecoration: 'none'
+
   }
 
   const hrStyle = {
-    marginTop: "5%"
+    marginTop: "2%",
+
+
   }
 
   return(
       <div style={navLinks}>
-        <p> <Link to='/aboutapp'>About The App </Link> |
-        <Link to='/newkegform'>Add a New Keg </Link> |
-        <Link to='/'>All Kegs </Link>
+         <Link style ={noUnderline} to='/aboutapp'> About The App</Link> |
+       <Link style ={noUnderline} to='/newkegform'> Add a New Keg</Link> |
+   <Link style ={noUnderline} to='/'> All Kegs</Link>
 
-    </p>
+
+  <div style={hrStyle}><hr/></div>
       </div>
   );
 }

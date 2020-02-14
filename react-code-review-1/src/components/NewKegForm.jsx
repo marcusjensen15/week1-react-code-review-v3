@@ -16,7 +16,14 @@ export default function NewKegForm(){
 
   return(
     <div>
-      <p> Here is where a form goes to add a new keg</p>
+      <form>
+        <label>
+          Name:
+          <input type="text" name="name" />
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+
 
     </div>
   );

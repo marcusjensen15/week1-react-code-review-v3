@@ -10,12 +10,13 @@ import Keg from './Keg';
 export default function AllKegs(){
 
   const textCenter = {
-    textAlign: 'center'
+    textAlign: 'center',
+    marginBottom: '10%'
   }
 
   const kegHeader = {
-    fontSize: '80px',
-    paddingBottom: '20px',
+    fontSize: '5.5vh',
+    paddingBottom: '3%',
     color: 'white'
   }
 

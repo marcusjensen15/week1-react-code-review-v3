@@ -3,14 +3,16 @@ import PropTypes from 'prop-types';
 
 export default function Keg(props){
   var kegTextStyle = {
-    fontSize: '30px',
+    fontSize: '50px',
     paddingTop: '2%',
     paddingLeft: '5%',
     paddingRight: '5%',
     paddingBottom: '2%',
     border: '6px solid #eee',
     marginRight: '32%',
+    marginBottom: '2%',
     marginLeft: '32%'
+
   }
   var textCenter = {
     color: 'white'
@@ -21,7 +23,9 @@ export default function Keg(props){
     height: '3vh',
     width: '3vw',
     paddingTop: '1%',
-    paddingBottom: '1%'
+    paddingBottom: '1%',
+    marginTop: '4%',
+    fontSize: '18px'
   }
 
 
