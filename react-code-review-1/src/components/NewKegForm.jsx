@@ -10,16 +10,38 @@ import React from 'react';
 export default function NewKegForm(){
 
   const textCenter = {
-    textAlign: 'center'
+    textAlign: 'center',
+    fontSize: '1.5vh'
+  }
+  const newBeerHeader = {
+    marginBottom: '6vh'
+
   }
 
-
   return(
-    <div>
+
+    <div style={textCenter}>
+      <h1 style={newBeerHeader}>Add a new beer </h1>
       <form>
         <label>
-          Name:
+          Name of Beer:
           <input type="text" name="name" />
+        </label>
+        <label>
+          Brand:
+          <input type="text" name="name" />
+        </label>
+        <label>
+          Price per Pint:
+          <input type="text" name="name" />
+        </label>
+        <label>
+          Alcohol Content:
+          <input type="text" name="name" />
+        </label>
+        <label>
+          Keg Volume:
+          <input type="number" name="name" />
         </label>
         <input type="submit" value="Submit" />
       </form>
