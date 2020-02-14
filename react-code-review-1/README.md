@@ -13,7 +13,7 @@ LessThan10Pints
 NewKegForm
 PintSoldButton
 
-##Initial Application Flow Map
+## Initial Application Flow Map
 
 ![alt text](http://url/to/img.png)
 
