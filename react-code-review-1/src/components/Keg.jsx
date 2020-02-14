@@ -20,7 +20,8 @@ export default function Keg(props){
 
     height: '3vh',
     width: '3vw',
-    paddingTop: '1%'
+    paddingTop: '1%',
+    paddingBottom: '1%'
   }
 
 
