@@ -9,18 +9,12 @@ export default function Keg(props){
     paddingLeft: '5%',
     paddingRight: '5%'
   }
-  // var imageStyles = {
-  //
-  //   height: '30vh',
-  //   float: 'left',
-  //   paddingRight: '5%'
-  //
-  // }
+
 
   return(
     <div>
       <div style={kegTextStyle}>
-        // <img style={imageStyles} src={props.image}></img>
+
         <h3>{props.name}</h3>
         <h4>{props.brand}</h4>
         <p>{props.price}</p>
@@ -37,5 +31,5 @@ Keg.propTypes = {
   brand: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
   alcoholContent: PropTypes.string.isRequired,
-  kegVolume: PropTypes.integer.isRequired
+  kegVolume: PropTypes.number.isRequired
 }
