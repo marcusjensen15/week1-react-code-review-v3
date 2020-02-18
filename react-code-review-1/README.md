@@ -1,3 +1,13 @@
+
+
+# _Beer Keg Tracking App_
+
+#### _A great way to track your Kegs! February 14th, 2020_
+
+#### By _**Marcus Jensen**_
+
+
+
 ## Description
 
 The purpose of this application is to allow the owner/operator of a bar to understand which beers they have on tap, and which beer kegs are close to needing replacement. The user will be able to: Add a new beer to the tap list, edit a beer, deduct a pint from the pints remaining, and delete a beer from the database.
@@ -18,6 +28,33 @@ PintSoldButton
 [Here is a link to the flow map of the application!](https://drive.google.com/file/d/1e5KgQR_cspekwBa2UBf2Pm_0qsrJFZWz/view?usp=sharing)
 
 
+## Setup/Installation Requirements
+
+In order to get this application up and running, you must do the following  
+
+* Clone this repo down to your local machine.
+
+* Navigate to root directory, run 'npm install'
+
+* run npm start or yarn start in the root directory of your terminal to get things started.
+
+## Known Bugs
+
+_To my knowledge, this bug has no known bugs. please notify me if you encounter one. Everything performing to specs laid out for me in the project guidelines._
+
+## Support and contact details
+
+_Marcus Jensen email: marcusjensen1515@gmail.com_
+
+## Technologies Used
+
+_JavaScript, React, HTML, CSS_
+
+### License
+
+*MIT License*
+
+Copyright (c) 2020 **_Marcus Jensen, Epicodus_**
 
 
 
@@ -27,7 +64,8 @@ PintSoldButton
 
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Below are instructions on how to run this app using yarn:
+
 
 ## Available Scripts
 
