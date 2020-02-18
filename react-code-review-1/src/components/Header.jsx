@@ -21,13 +21,13 @@ export default function Header(){
   }
 
   return(
-      <div style={navLinks}>
-         <Link style ={noUnderline} to='/aboutapp'> About The App</Link> |
-       <Link style ={noUnderline} to='/newkegform'> Add a New Keg</Link> |
-   <Link style ={noUnderline} to='/'> All Kegs</Link>
+    <div style={navLinks}>
+      <Link style ={noUnderline} to='/aboutapp'> About The App</Link> |
+        <Link style ={noUnderline} to='/newkegform'> Add a New Keg</Link> |
+          <Link style ={noUnderline} to='/'> All Kegs</Link>
 
 
-  <div style={hrStyle}><hr/></div>
-      </div>
-  );
-}
+          <div style={hrStyle}><hr/></div>
+        </div>
+      );
+    }
