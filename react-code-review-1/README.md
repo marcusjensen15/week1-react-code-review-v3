@@ -2,7 +2,7 @@
 
 The purpose of this application is to allow the owner/operator of a bar to understand which beers they have on tap, and which beer kegs are close to needing replacement. The user will be able to: Add a new beer to the tap list, edit a beer, deduct a pint from the pints remaining, and delete a beer from the database.
 
-as of 2/14/2020, this application is hard coded and non responseve, but by the end of the month the user will have access to all of this functionality.
+as of 2/14/2020, this application is hard coded and non responsive, but by the end of the month the user will have access to all of this functionality.
 
 ## Key Custom Component List
 AboutApp
@@ -15,7 +15,7 @@ PintSoldButton
 
 ## Initial Application Flow Map
 
-![alt text](http://url/to/img.png)
+[Here is a link to the flow map of the application!](https://drive.google.com/file/d/1e5KgQR_cspekwBa2UBf2Pm_0qsrJFZWz/view?usp=sharing)
 
 
 
